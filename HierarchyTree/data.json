@@ -1,69 +1,287 @@
 [
 	{
-		"id": 1,
-		"name": "Res 1",
-		"children": [
-			{
-				"id": 5,
-				"name": "Res 5",
-				"children": [
-					{
-						"id": 14,
-						"name": "Collab 8"
-					}, {
-						"id": 15,
-						"name": "Collab 9"
-					}
-				]
-			}, {
-				"id": 6,
-				"name": "Res 6",
-				"children": [
-					{
-						"id": 16,
-						"name": "Collab 10"
-					}
-				]
-			}, {
-				"id": 7,
-				"name": "Collab 1"
-			}, {
-				"id": 8,
-				"name": "Collab 2"
-			}
-		]
-	}, {
-		"id": 2,
-		"name": "Res 2",
-		"children": [
-			{
-				"id": 9,
-				"name": "Collab 3"
-			}, {
-				"id": 10,
-				"name": "Collab 4"
-			}
-		]
-	}, {
-		"id": 3,
-		"name": "Res 3",
-		"children": [
-			{
-				"id": 11,
-				"name": "Collab 7"
-			}, {
-				"id": 12,
-				"name": "Collab 6"
-			}
-		]
-	}, {
-		"id": 4,
-		"name": "Res 4",
-		"children": [
-			{
-				"id": 13,
-				"name": "Collab 7"
-			}
-		]
+		"ID": 4619,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "aminata.fofana@smac-sa.com",
+		"emailresponsable": "ahamadi.attoumani@smac-sa.com",
+		"nom": "Aminata",
+		"nomresponsable": "ahamadi.attoumani",
+		"prenom": "FOFANA",
+		"responsabledelentretien": "ahamadi.attoumani"
+	},
+	{
+		"ID": 4620,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "amory@smac-sa.com",
+		"emailresponsable": "ahamadi.attoumani@smac-sa.com",
+		"nom": "Fabrice",
+		"nomresponsable": "ahamadi.attoumani",
+		"prenom": "AMORY",
+		"responsabledelentretien": "ahamadi.attoumani"
+	},
+	{
+		"ID": 4618,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "alisson.morazzani@smac-sa.com",
+		"emailresponsable": "ahamadi.attoumani@smac-sa.com",
+		"nom": "Alisson",
+		"nomresponsable": "ahamadi.attoumani",
+		"prenom": "MORAZZANI",
+		"responsabledelentretien": "ahamadi.attoumani"
+	},
+	{
+		"ID": 4605,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "amelie.gautier@smac-sa.com",
+		"emailresponsable": "ahamadi.attoumani@smac-sa.com",
+		"nom": "Amelie",
+		"nomresponsable": "ahamadi.attoumani",
+		"prenom": "GAUTIER",
+		"responsabledelentretien": "ahamadi.attoumani"
+	},
+	{
+		"ID": 4604,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "allouis@smac-sa.com",
+		"emailresponsable": "ahamadi.attoumani@smac-sa.com",
+		"nom": "Xavier",
+		"nomresponsable": "ahamadi.attoumani",
+		"prenom": "ALLOUIS",
+		"responsabledelentretien": "ahamadi.attoumani"
+	},
+	{
+		"ID": 4601,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "ahamadi.attoumani@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Ahamadi",
+		"nomresponsable": "gen wkf",
+		"prenom": "ATTOUMANI",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4602,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "ahmad-el-kader.kanso@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Ahmad El Kader",
+		"nomresponsable": "gen wkf",
+		"prenom": "KANSO",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4600,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "adrien.eustachon@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Adrien",
+		"nomresponsable": "gen wkf",
+		"prenom": "EUSTACHON",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4599,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "adrien.delahaye@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Adrien",
+		"nomresponsable": "gen wkf",
+		"prenom": "DELAHAYE",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4598,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "adel.moussa@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Adel",
+		"nomresponsable": "gen wkf",
+		"prenom": "MOUSSA",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4597,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "abdrahamane.faty@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Abdrahamane",
+		"nomresponsable": "gen wkf",
+		"prenom": "FATY",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4596,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "abdo.abiatmi.ext@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "ABDO",
+		"nomresponsable": "gen wkf",
+		"prenom": "ABIATMI",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4595,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "abdessamad.el-khanchouli@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Abdessamad",
+		"nomresponsable": "gen wkf",
+		"prenom": "EL-KHANCHOULI",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4594,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "abdeslam.jaghouti-ext@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Abdeslam",
+		"nomresponsable": "gen wkf",
+		"prenom": "JAGHOUTI",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4593,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "abderrahmane.tadiste@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Abderrahmane",
+		"nomresponsable": "gen wkf",
+		"prenom": "TADISTE",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4592,
+		"StatusEntretienManager": {
+			"Value": "pas commencé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "adam.najmi@smac-sa.com",
+		"emailresponsable": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"nom": "Adam",
+		"nomresponsable": "gen wkf",
+		"prenom": "NAJMI",
+		"responsabledelentretien": "gen wkf"
+	},
+	{
+		"ID": 4590,
+		"StatusEntretienManager": {
+			"Value": "Terminé"
+		},
+		"StatutEntretien": {
+			"Value": "Terminé"
+		},
+		"emailcollaborateur": "gen-wkf-vorstone@groupesmac.onmicrosoft.com",
+		"emailresponsable": null,
+		"nom": "Abderrahmane",
+		"nomresponsable": null,
+		"prenom": "TADISTE",
+		"responsabledelentretien": null
+	},
+	{
+		"ID": 4591,
+		"StatusEntretienManager": {
+			"Value": "Terminé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "marlane.tchof@smac-sa.com",
+		"emailresponsable": "aminata.fofana@smac-sa.com",
+		"nom": "Marlane",
+		"nomresponsable": "aminata.fofana",
+		"prenom": "Elvira",
+		"responsabledelentretien": "aminata.fofana"
+	},
+	{
+		"ID": 4592,
+		"StatusEntretienManager": {
+			"Value": "Terminé"
+		},
+		"StatutEntretien": {
+			"Value": "pas commencé"
+		},
+		"emailcollaborateur": "andy.tchof@smac-sa.com",
+		"emailresponsable": "aminata.fofana@smac-sa.com",
+		"nom": "Andy",
+		"nomresponsable": "aminata.fofana",
+		"prenom": "Tchof",
+		"responsabledelentretien": "aminata.fofana"
 	}
 ]
