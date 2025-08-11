@@ -1,0 +1,20 @@
+.tree-node {
+    margin-left: 10px;
+    border-left: 1px dashed #ccc;
+    padding-left: 10px;
+}
+
+.tree-label {
+    cursor: pointer;
+    font-weight: bold;
+    color: #2e86de;
+}
+
+.tree-node.collapsed>.tree-children {
+    display: none;
+}
+
+.tree-children {
+    margin-top: 7px;
+    margin-left: 25px;
+}
