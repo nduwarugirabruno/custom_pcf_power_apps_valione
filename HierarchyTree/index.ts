@@ -96,8 +96,17 @@ export class HierarchyTree implements ComponentFramework.StandardControl<IInputs
 
             // this.container.innerText += ` (${rootNodes.length} nœuds racines trouvés)`;
             // this.container.innerText += "\n" + JSON.stringify(rootNodes, null, 4);
-        } catch {
-            this.container.innerText = "Erreur de parsing JSON." + JSON.stringify(rawData);
+        } catch(error) {
+            let message = "Unknown error";
+
+            if (error instanceof Error) {
+                message = error.message;
+            } else if (typeof error === "string") {
+                message = error;
+            }
+
+            this.container.innerText =
+                "Erreur de parsing JSON: " + message + " | Data: \n" + JSON.stringify(rawData);
         }
     }
 
@@ -113,7 +122,41 @@ export class HierarchyTree implements ComponentFramework.StandardControl<IInputs
 
         const label = document.createElement("div");
         label.classList.add("tree-label");
-        label.innerText = `${node.nom} ${node.prenom} (${node.nomresponsable})`;
+        // label.style.backgroundColor = "#ff0000";
+        // label.style.display = "flex";
+        // label.style.flexDirection = "row";
+        // label.style.justifyContent = "between";
+
+        const nom = document.createElement("div");
+        nom.classList.add("tree-label-name");
+        // nom.style.backgroundColor = "#00ff00";
+        // nom.style.width = "50%";
+        nom.innerText = `${node.nom} ${node.prenom} (${node.nomresponsable})`;
+
+        const status = document.createElement("div");
+        status.classList.add("tree-label-status");
+
+        const statusManager = document.createElement("div");
+        statusManager.classList.add("tree-label-status-manager");
+        statusManager.innerText = `${node.StatusEntretienManager}`;
+
+        const separator = document.createElement("div");
+        separator.classList.add("tree-label-status-separator");
+        separator.innerText = ` | `;
+
+        const statusCollab = document.createElement("dic");
+        statusCollab.classList.add("tree-label-status-collab");
+        statusCollab.innerText = `${node.StatutEntretien}`;
+
+        status.appendChild(statusCollab);
+        status.appendChild(separator);
+        status.appendChild(statusManager);
+
+        label.appendChild(nom);
+        label.appendChild(status);
+
+
+        // label.innerText = `${node.nom} ${node.prenom} (${node.nomresponsable})`;
         label.onclick = () => div.classList.toggle("collapsed");
         div.appendChild(label);
 

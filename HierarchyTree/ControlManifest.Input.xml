@@ -18,8 +18,8 @@
       -->
     </external-service-usage>
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
-    <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
-    <property name="data" display-name-key="Hierarchy Data" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="data" display-name-key="List_Collab_Respo_Entretien" description-key="Liste des entretiens des collaborateurs et sous collaborateurs" of-type="SingleLine.Text" usage="bound" required="true" />
+    <!-- <property name="data" display-name-key="Hierarchy Data" of-type="SingleLine.Text" usage="bound" required="false" />-->
 
     <!--
       Property node's of-type attribute can be of-type-group attribute.
