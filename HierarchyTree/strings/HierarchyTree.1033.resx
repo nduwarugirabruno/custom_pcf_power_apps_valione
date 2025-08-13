@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Data_DisplayName" xml:space="preserve">
+    <value>Hierarchy Data</value>
+  </data>
+  <data name="Data_Description" xml:space="preserve">
+    <value>JSON string representing the hierarchy to render</value>
+  </data>
+</root>

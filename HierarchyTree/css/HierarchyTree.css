@@ -1,0 +1,43 @@
+.tree-node {
+    margin-left: 10px;
+    border-left: 1px dashed #ccc;
+    padding-left: 10px;
+}
+
+.tree-label, .tree-label-status {
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+    /*color: #2e86de;*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tree-label-name {
+    /*background: black;*/
+    width: auto;
+}
+
+.tree-label-status {
+    gap: 2.5rem;
+    margin-right: 5rem;
+}
+
+.tree-label-status-manager, .tree-label-status-collab {
+    width: 115px;
+}
+
+.tree-node.collapsed>.tree-children {
+    display: none;
+}
+
+.tree-children {
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+* {
+    text-align: left !important;
+}
